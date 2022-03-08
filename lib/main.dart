@@ -13,6 +13,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    /// Initialisation du controller dans l'application. Une fois le PUT
+    /// effectué, le controller peut être récupéré depuis n'importe quel endroit de l'application
+    /// Cela permet donc de ne pas avoir à se transmettre des objets par paramètre.
+    /// Et donc simplifier les appels de méthodes / chaînes d'appels.
     Get.put(ExoController());
 
     return GetMaterialApp(

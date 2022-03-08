@@ -5,6 +5,8 @@ import 'package:random_image/model/exo_controller.dart';
 
 class LinkManager {
 
+  ///Construction du lien permettant de récupérer les images en fonction
+  ///des combobox (cochées ou non)
   static void generateLink(){
     final ExoController controller = Get.find();
     String finalUrl = "https://picsum.photos/";
