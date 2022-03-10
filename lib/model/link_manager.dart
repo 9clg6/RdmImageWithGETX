@@ -12,11 +12,11 @@ class LinkManager {
     String finalUrl = "https://picsum.photos/";
 
     if(!controller.isBlurActivated.value && !controller.isGreyActivated.value){
-      finalUrl += "${Random().nextInt(500)}";
+      finalUrl += "${Random().nextInt(300)}";
     } else if(controller.isGreyActivated.value){
-      finalUrl += "${Random().nextInt(500)}?grayscale";
+      finalUrl += "${Random().nextInt(300)}?grayscale";
     } else if(controller.isBlurActivated.value){
-      finalUrl += "${Random().nextInt(500)}?blur";
+      finalUrl += "${Random().nextInt(300)}?blur";
     }
     controller.imageUrl.value = finalUrl;
   }
