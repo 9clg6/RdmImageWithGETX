@@ -2,8 +2,6 @@
 # RdmImageWithGETX
 ## Présentation
 
-RdmImageWithGETX est un projet développé en Flutter durant le module "Développement Mobile" à l'école Ynov Lyon Campus. 🎓
-
 L'objectif de ce projet était d'afficher une image aléatoire provenant de l'API [Picsum.photo](https://picsum.photos/).
 
 Les dimensions des images sont générées aléatoirement.
